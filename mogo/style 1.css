@@ -1,0 +1,184 @@
+body{
+	margin: 0;
+}
+
+header h1 {
+	font-size: 24px;
+	font-weight: 300;
+	background-image: linear-gradient(to left, #553c9a, #b393d3);
+	color: transparent;
+	background-clip: text;
+	-webkit-background-clip: text;
+} 
+
+.nav-scroll {
+	display: block;
+	margin-left: auto;
+	margin-right: auto 
+	overflow-y: hidden; 
+	background-color: #fff; 
+	box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075); 
+}
+
+.nav-scroll_items {
+	display: flex;
+	flex-wrap: nowrap;
+	overflow-x: auto; 
+	white-space: nowrap; 
+}
+
+.nav-scroll_item {
+	color: #424242;
+	display: flex;
+	padding: 0.5rem 1.25rem;
+	text-decoration: none;
+}
+
+.nav-scroll_item:not(:last-child) {
+	border-right: 1px solid #eee;
+}
+
+.nav-scroll_item_active {
+	background-color: #fff59d;
+}
+
+.nav-scroller__item:not(.nav-scroller__item_active):hover {
+	background-color: #f5f5f5;
+}
+
+.nav-scroll_item:hover {
+	background-color: #d9f3f7;
+	text-decoration: none;
+	transition: 0.6s;
+}
+
+.turns{
+	display: grid;
+	justify-content: center;
+	margin: 50px 50px;
+}
+
+.turns-table{
+}
+
+.new-turns{
+	display: grid;
+	justify-content: center;
+}
+
+#create-user{
+	display: grid;
+	justify-content: center;
+}
+
+#create-order{
+	display: grid;
+	justify-content: center;
+}
+
+.users{
+	display: grid;
+	justify-content: center;
+	margin: 50px 50px;
+}
+
+table thead th{
+	background: #d8d8d8;
+	text-align: left;
+	padding: 10px 15px;
+}
+
+table thead th:first-child{
+	border-radius: 8px 0 0 8px;
+}
+
+table thead th:last-child{
+	border-radius: 0 8px 8px 0;
+}
+
+table, thead, th, tbody, td{
+	border: 0px solid black;
+	border-collapse: collapse;
+}
+
+table tbody tr:nth-child(even){
+	background: #f3f3f3;
+}
+
+table tbody tr:nth-child(even):hover{
+	background: #d9f3f7;
+}
+
+table tbody tr td:first-child {
+	border-radius: 8px 0 0 8px;
+}
+
+table tbody tr td:last-child {
+	border-radius: 0 8px 8px 0;
+}
+
+tbody tr:hover{
+	background-color: #d9f3f7;
+}
+
+table tbody td{
+	padding: 10px 15px;
+}
+
+th, td{
+	padding: 5px;
+}
+
+.users-table a, .turns-table a {
+	text-decoration: none;
+	color: black;
+}
+
+.users-table a:hover, .turns-table a:hover {
+	color: red;
+}
+
+.orders{
+	display: flex;
+	justify-content: center;
+}
+
+
+.edit_profile{
+	display: grid;
+	justify-content: center;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.edit_profile label, .edit_profile div{
+	justify-self: end;
+}
+
+.edit_profile div{
+	align-self: center;
+}
+
+.edit_profile input, .edit_profile select{
+	justify-self: start;
+}
+
+.edit_profile input:last-child{
+	justify-self: start;
+}
+
+.edit_turn{
+	display: grid;
+	justify-content: center;
+}
+
+.actionButton{
+	z-index: 99;
+}
+
+.edit_order{
+	display: grid;
+	justify-content: center;
+}
+
+
+

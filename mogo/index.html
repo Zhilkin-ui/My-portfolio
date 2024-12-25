@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:300i,400,700&amp;subset=cyrillic-ext" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <title>La Corpo</title>
+</head>
+<body>
+
+
+<header class="header" id="header">
+    <div class="container">
+        <div class="header__inner">
+            <div class="header__logo" data-scroll="#intro">La Corpo</div>
+
+            <nav class="nav" id="nav">
+                <a class="nav__link" href="#" data-scroll="#about">Главная</a>
+                <a class="nav__link" href="#" data-scroll="#services">Услуги</a>
+                <a class="nav__link" href="#" data-scroll="#blog">Новости</a>
+                <a class="nav__link" href="#" data-scroll="#works">Массажисты</a>
+                <a class="nav__link" href="#" data-scroll="#footer">Филиалы</a>
+                <img src="assets/images/about/ооо.png" width="20" height="20" alt="">
+                <a class="nav__link" href="#" data-scroll="#">+79339333358</a>
+                <a class="login-button" href="#">Войти</a>
+                <a class="profile-button" href="#">Личный кабинет</a>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="login-form">
+        <h2>Форма входа / регистрации</h2>
+        <form action="login.php" method="post">
+            <input type="text" id="username" name="username" placeholder="Имя пользователя" required><br>
+            <input type="password" id="password" name="password" placeholder="Пароль" required><br>
+            <input type="submit" value="Войти" name="login">
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+
+        </div>
+    </div>
+</header>
+
+
+<div class="page">
+
+    <!-- Intro -->
+    <div class="intro" id="intro">
+        <div class="container">
+            <div class="intro__inner">
+                <h1 class="intro__title"></h1>
+               
+            </div>
+        </div>
+
+    </div><!-- /.intro -->
+
+
+    <!-- About -->
+    <section class="section" id="about">
+        <div class="container">
+
+            <div class="section__header">
+                <h3 class="section__suptitle">La Corpo</h3>
+                <h2 class="section__title">Красота в тебе</h2>
+                <div class="section__text">
+                    <p>Мастер тщательно проработает каждый сантиметр вашего тела, с различной силой воздействия на разные зоны. Специально для салона мы подобрали настоящих профи, мастеров своего дела из Вьетнама. Нам очень важно, чтобы в La Corpo массаж был аутентичным и выполнялся на очень высоком уровне. У нас будут работать только сертифицированные специалисты, в их квалификации можно убедиться, посетив наш салон.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card__item">
+                    <div class="card__inner">
+                        <div class="card__img">
+                            <img src="assets/images/about/1.jpg" alt="">
+                        </div>
+                        <div class="card__text"></div>
+                    </div>
+                </div>
+
+                <div class="card__item">
+                    <div class="card__inner">
+                        <div class="card__img">
+                            <img src="assets/images/about/2.jpg" alt="">
+                        </div>
+                        <div class="card__text"></div>
+                    </div>
+                </div>
+
+                <div class="card__item">
+                    <div class="card__inner">
+                        <div class="card__img">
+                            <img src="assets/images/about/3.jpg" alt="">
+                        </div>
+                        <div class="card__text"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div><!-- /.container -->
+    </section>
+
+    <!-- Services -->
+    <section class="section" id="services">
+        <div class="container">
+
+            <div class="section__header">
+                <h3 class="section__suptitle">Услуги</h3>
+                <h2 class="section__title">La Corpo</h2>
+                <div class="section__text">
+                    <p></p>
+            </div>
+
+    <section class="section">
+        <div class="container">
+
+            <div class="section__header">
+
+                <div class="section__text">
+                    <p>Наши услуги разнообразны мы не только предостовляем класический массаж но и целлые программы</p>
+                </div>
+            </div>
+
+            <div class="wedo">
+                <div class="wedo__item">
+                    <img class="wedo__img" src="assets/images/wedo.jpg" alt="">
+                </div>
+
+                <div class="wedo__item">
+
+                    <div class="accordion">
+                        <div class="accordion__item" data-collapse="#wedo_1">
+                            <div class="accordion__header">
+                                <img class="accordion__icon" src="assets/images/services/LACORPO_эмблема_1.png" alt="">
+                                <div class="accordion__title">Массаж</div>
+                            </div>
+                            <div class="accordion__content" id="wedo_1">
+                                <p>Массаж лица 30мин 700руб</p>
+                                <p>Классический массаж всего тела 60мин 1000</p>
+                                <p>Расслабляющий массаж всего тела 60мин 1000</p>
+                                <p>Линфодренажный массаж всего тела 60мин 1000</p>
+                                <p>Антецелюлитный массаж всего тела 60 мин 1000</p>
+                                <p>Солевой массаж всего тела 60мин 1000</p>
+                                <p>Медовй массаж всего тела 60мин 1300</p>
+                                <p>Скрабирование всего тела 500</p>
+                            </div>
+                        </div>
+
+                        <div class="accordion__item active" data-collapse="#wedo_2">
+                            <div class="accordion__header">
+                                <img class="accordion__icon" src="assets/images/services/LACORPO_эмблема_1.png" alt="">
+                                <div class="accordion__title">Программы</div>
+                            </div>
+                            <div class="accordion__content" id="wedo_2">
+                                <p>ПРОГРАММА «АНТИЦЕЛЛЮЛИТ» МАССАЖ СКРАБИРОВАНИЕ ОБЕРТЫВАНИЕ 90мин 2000</p>
+                                <p>ПРОГРАММА «УВЛАЖНЕНИЕ» МАССАЖ СКРАБИРОВАНИЕ ОБЕРТЫВАНИЕ 90мин 2000</p>
+                                <p>ПРОГРАММА «ДЕТОКС» МАССАЖ СКРАБИРОВАНИЕ ОБЕРТЫВАНИЕ 90мин 2000</p>
+                                <p>ПРОГРАММА «ОБНОВЛЕНИЕ» СКРАБИРОВАНИЕ МАССАЖ 60мин 2000</p> 
+                                <p>УХОДОВАЯ ПРОГРАММА ДЛЯ НОГ СКРАБИРОВАНИЕ МАССАЖ СТОП И ГОЛЕНИ НАНЕСЕНИЕ КРЕМА 60мин 2000</p>
+                            </div>
+                        </div>
+
+                        <div class="accordion__item" data-collapse="#wedo_3">
+                            <div class="accordion__header">
+                                <img class="accordion__icon" src="assets/images/services/LACORPO_эмблема_1.png" alt="">
+                                <div class="accordion__title">Карамельная липосакция</div>
+                            </div>
+                            <div class="accordion__content" id="wedo_3">
+                               <p>Зона спина: 60-80 мин 1200руб</p>
+                                <p>Разовый Абонимент (от 5 человек) 1000руб</p>
+                                <p>Зоны: живот+бока 60-80мин 1400руб</p>
+                                <p>Разовый Абонимент (от 5 человек) 1200руб</p>
+                                <p>Зоны: живот+бока+ягодицы+бёдра+спина 100 мин 2600 руб</p>
+                                <p>Разовый Абонимент (от 5 человек) 2400руб</p>
+                                <p>Зоны: всего тела 120 мин 3000</p>
+                                <p>Разовый Абонимент (от 5 человек) 2800руб</p>
+                            </div>
+                        </div>
+                    </div><!-- /.accordion -->
+
+                </div><!-- /.wedo__item -->
+            </div><!-- /.wedo -->
+
+        </div>
+    </section>
+    
+
+    <!-- Works -->
+    <section class="section" id="works">
+        <div class="container">
+            <div class="section__header">
+                <h3 class="section__suptitle">Персонал</h3>
+                <h2 class="section__title">La Corpo</h2>
+                <div class="section__text">
+                </div>
+            </div>
+        </div>
+                <div class="works__item">
+                    <img class="works__image" src="assets/images/works/1.jpg" width="192" height="256" alt="">
+                    <div class="works__info">
+                        <div class="works__title">Мастер Ольга Медицинское образование Владеет техниками массажа: Общий(классический) массаж  Расслабляющий массаж  Миофасциальный массаж  Лимфодренажный массаж Антицеллюлитный массаж  Солевой массаж Медовый массаж Массаж Лица «Карамельная Липосакция»</div>
+                    </div>
+                </div>
+            </div>
+        </div><!-- /.works -->
+    </section>
+
+    <!-- Blog -->
+    <section class="section" id="blog">
+        <div class="container">
+
+            <div class="section__header">
+                <h3 class="section__suptitle">Новости</h3>
+                <h2 class="section__title">La Corpo</h2>
+                <div class="section__text">
+                </div>
+            </div>
+        </div>
+            </div>
+
+            <div class="blog">
+                <div class="blog__item">
+                    <div class="blog__header">
+                        <a href="#">
+                            <img class="blog__photo" src="assets/images/blog/4.jpg" alt="">
+                        </a>
+                        <div class="blog__date">
+                            <div class="blog__date-day">15 апреля</div>
+                           2023 г
+                        </div>
+                    </div>
+                    <div class="blog__content">
+                        <div class="blog__title">
+                            <a href="https://otzovik.com/reviews/sony_playstation_2_igrovaya_pristavka/"target="_blank">Новые Абонименты</a>
+                        </div>
+                        <div class="blog__text">lacorpo_удобная система АБОНЕМЕНТОВ Массаж лучше проходить КУРСОМ так мы правильно и уверенно достигаем нужного результата ВО ВРЕМЯ КУРСА не нужно посещать массажиста каждый день, нашему телу тоже нужно время для восстановления • в среднем нужно посещать массажиста раз в 3/4 дня У нас Вы можете приобрести абонемент на 5/10 сеансов массажа это значительно ВЫГОДНЕЕ, чем 1 сеанс ~на все абонементы действует беспроцентная рассрочка~</div>
+                    </div>
+                    <div class="blog__footer">
+                        <div class="blog-stat">
+                            <span class="blog-stat__item">
+                            </span>
+                            <span class="blog-stat__item">
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="blog__item">
+                    <div class="blog__header">
+                        <a href="#">
+                            <img class="blog__photo" src="assets/images/blog/5.jpg" alt="">
+                        </a>
+                        <div class="blog__date">
+                            <div class="blog__date-day">8 июня</div>
+                           2023 г
+                        </div>
+                    </div>
+                    <div class="blog__content">
+                        <div class="blog__title">
+                            <a href="https://otzovik.com/reviews/igrovaya_pristavka_sony_playstation_2_slim/"target="_blank">Ну и жара</a>
+                        </div>
+                        <div class="blog__text">lacorpo_ В такую жару наше тело нуждается в еще большей заботе Проведите время с любовью к себе - запишитесь на сеанс массажа Наша студия оборудована кондиционером, что позволит Вам с комфортом и прохладой провести время в удовольствие! Массаж зарядят Вас энергией на предстоящую неделю это подарит Вам бодрость и сил на свершение новых дел </div>
+                    </div>
+                    <div class="blog__footer">
+                        <div class="blog-stat">
+                            <span class="blog-stat__item">
+                            </span>
+                            <span class="blog-stat__item">
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- /.blog -->
+
+        </div><!-- /.container -->
+    </section>
+
+
+    <!-- Map -->
+    <section class="section  section--map">
+        <div class="container">
+            <div class="map">
+                <h2 class="map__title">
+                    <div><i class="fas fa-map-marker-alt"></i></div>
+                    <a href="https://go.2gis.com/6spvmi" target="_blank">Филиал</a>
+                </h2>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer" id="footer">
+        <div class="container">
+
+            <div class="footer__inner">
+                <div class="footer__col  footer__col--first">
+                    <div class="footer__logo">LA CORPO</div>
+                    <div class="footer__text">Компания «LA CORPO» начала свою деятельность на рынке массажных услуг города Барнаула в январе 2023 года. Основным видом деятельности компании является оказание качественных и профессиональных массажных услуг населению. В помещение компании зона приёма посетителей, 2 массажных кабинета, spa-зона, душевая кабина и вспомогательные помещения. Предоставляемые услуги компании ориентированы на клиентов со средним доходом, а также для предоставления, как лечебного эффекта, так и для отдыха, релаксации и приятного времяпрепровождения.</div>
+                    
+
+                    </form>
+                </div><!-- /.footer__col -->
+                <div class="blogs__item">
+                            <img class="blogs__img" src="assets/images/blog/photo1686818821.jpeg" alt="">
+
+                            <div class="blogs__content">
+                                <a class="blogs__title" href="https://t.me/lacorpo">Телеграм</a>
+                            </div>
+                        </div>
+
+                <div class="footer__col  footer__col--third">
+                    <div class="footer__title">Инстограм</div>
+
+                    <div class="instagram">
+                        <a class="instagram__item" href=" https://instagram.com/lacorpo_?igshid=MzRlODBiNWFlZA==" target="_blank">
+                            <img src="assets/images/instagram/1.jpg" alt="">
+                        </a>
+                        <a class="instagram__item" href="https://instagram.com/lacorpo_?igshid=MzRlODBiNWFlZA==" target="_blank">
+                            <img src="assets/images/instagram/2.jpg" alt="">
+                        </a>
+                        <a class="instagram__item" href="https://instagram.com/lacorpo_?igshid=MzRlODBiNWFlZA==" target="_blank">
+                            <img src="assets/images/instagram/3.jpg" alt="">
+                        </a>
+                        <a class="instagram__item" href="https://instagram.com/lacorpo_?igshid=MzRlODBiNWFlZA==" target="_blank">
+                            <img src="assets/images/instagram/4.jpg" alt="">
+                        </a>
+                        <a class="instagram__item" href="https://instagram.com/lacorpo_?igshid=MzRlODBiNWFlZA==" target="_blank">
+                            <img src="assets/images/instagram/5.jpg" alt="">
+                        </a>
+                        <a class="instagram__item" href="https://instagram.com/lacorpo_?igshid=MzRlODBiNWFlZA==" target="_blank">
+                            <img src="assets/images/instagram/6.jpg" alt="">
+                        </a>
+                        <a class="instagram__item" href="https://instagram.com/lacorpo_?igshid=MzRlODBiNWFlZA==" target="_blank">
+                            <img src="assets/images/instagram/7.jpg" alt="">
+                        </a>
+                        <a class="instagram__item" href="https://instagram.com/lacorpo_?igshid=MzRlODBiNWFlZA==" target="_blank">
+                            <img src="assets/images/instagram/8.jpg" alt="">
+                        </a>
+                        <a class="instagram__item" href="https://instagram.com/lacorpo_?igshid=MzRlODBiNWFlZA==" target="_blank">
+                            <img src="assets/images/instagram/9.jpg" alt="">
+                        </a>
+                            </div>
+                        </div>
+                    </div><!-- /.blogs -->
+                </div>
+
+            </div><!-- /.footer__inner -->
+
+            <div class="copyright">
+                Сайт был разработан для La Corpo в 2023 году</div>
+
+        </div><!-- /.container -->
+    </footer>
+
+</div><!-- /.page -->
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="assets/js/app.js"></script>
+
+
+</body>
+</html>
